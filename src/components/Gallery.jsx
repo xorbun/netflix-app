@@ -55,7 +55,7 @@ componentDidMount()
                         {this.state.info.map((films)=>
                         {
                             return(
-                                <Card className="bg-dark" style={{ width: '7rem' }}>
+                                <Card className="bg-dark mx-2" style={{ width: '110px' }}>
                                 <Card.Img key={films.imdbID} variant="top" src={films.Poster} />
                                 </Card>
                             )
