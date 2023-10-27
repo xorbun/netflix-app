@@ -48,9 +48,9 @@ componentDidMount()
        
         return(
             <div className="bg-dark">
-                <h1 className="text-white-50">{this.props.example}</h1>
+                <h1 className="text-white-50 d-flex mx-3">{this.props.example}</h1>
                 <div>
-                    <Container>
+                    <Container className="d-flex justify-content-center">
                         <Row>
                         {this.state.info.map((films)=>
                         {
