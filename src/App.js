@@ -1,5 +1,6 @@
 
 import './App.css';
+import Tvseries from './components/Gallery';
 import Myfooter from './components/Myfooter';
 import Mynav from './components/Mynavbar';
 
@@ -11,7 +12,9 @@ function App() {
         <Mynav/>
       </header>
       <main>
-       
+        <Tvseries example="Trending now" search="&s=harry%20potter"/>
+        <Tvseries example="Watch now" search="&s=star+wars"/>
+        <Tvseries example="New Releases" search="&s=lord+of+the+rings"/>
       </main>
       <footer>
       <Myfooter/>
